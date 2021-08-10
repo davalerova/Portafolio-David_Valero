@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Cormorant Garamond', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Barlow Condensed', sans-serif; */
+
+/* INICIO HEADER */
+
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    color: black;
+    border-bottom: 1px solid transparent;
+    background: #fff;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 0 7.5px;
+}
+
+.header ul li a {
+    color: black;
+    text-align:end;
+}
+
+.header ul li a.active {
+    color: #75dab4;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* FIN HEADER */
+
+/* INICIO SECCIÓN PRINCIPAL */
+
+.main-section {
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cont {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cont h6 {
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #75dab4;
+}
+
+.cont h1 {
+    margin-bottom: 2%;
+    font-size: 6.25rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.cont h4{
+    margin-bottom: 2%;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+.social-icon {
+    margin-top: 5%;
+    width: auto;
+    height: 25px;
+}
+
+
+.icon {
+    padding: 10px;
+    margin-left: 5px;
+    width: 55px;
+    height: 55px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 25%;
+}
+
+/* FIN SECCIÓN PRINCIPAL */
+
+/* INICIO ABOUT */
+
+.about {
+    padding: 120px 0;
+}
+
+.about-title {
+    margin-bottom: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+}
+
+.about-subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.description {
+    padding: 0 15px;
+}
+
+.skills {
+    padding: 0 15px;
+}
+
+.about-description {
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: 200;
+    color: gray;
+}
+
+.puntos {
+    color: #75dab4;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.ui {
+    margin: 2rem 0;
+}
+
+.ui h2 {
+    margin-bottom: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.uibarout {
+    width: 100%;
+    height: 10px;
+    background-color: gainsboro;
+}
+
+.uibarin {
+    width: 90%;
+    height: 10px;
+    background-color: #75dab4;
+}
+
+.devbarin {
+    width: 80%;
+    height: 10px;
+    background-color: #75dab4;
+}
+
+.grbarin {
+    width: 88%;
+    height: 10px;
+    background-color: #75dab4;
+}
+
+/* FIN ABOUT */
+
+/* INICIO SERVICES */
+
+.best {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    color: #75dab4;
+}
+
+.serv {
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 0.5rem gainsboro;
+
+}
+
+.serv-transp {
+    position: absolute;
+    font-size: 15rem;
+    margin: -8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    opacity: 0.6;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-services {
+    margin: 5px 0;
+    padding: 25px 0;
+}
+
+.card-service {
+    width: 100%;
+    margin: 0 15px;
+    padding: 6rem;
+    background-color: #efefef;
+    color: black;
+}
+
+.title-service {
+    margin: 25px 0;
+}
+
+.description-service {
+    padding-top: 5px;
+    color: gray;
+}
+
+.footer-cards {
+    height: 15rem;
+    margin-top: -17rem;
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+.numbers-container {
+    padding: 120px 0;
+    margin-bottom: 10rem;
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+.count {
+    font-size: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* FIN SERVICES */
+
+/* INICIO PORTFOLIO */
+
+.card-container {
+    margin: 25px 5px; 
+    height: auto;
+    max-width:min-content;
+    border: solid 1px #75dab4;
+    overflow:hidden;
+    border-radius: 5px;
+    background-color: #efefef;
+}
+
+.card-container h2 {
+    color:#75dab4;
+}
+
+.second-cantainer {
+    padding: 25px;
+}
+
+.button {
+    background-color: #75dab4;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+/* FIN PORTFOLIO */
+
+/* INICIO TESTIMONIALS */
+
+.testimonials {
+    margin: 6rem 0;
+    background-image: url("../img/pexels-andrea-piacquadio-3777555.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: rgba(179, 73, 73, 0.5); */
+    position: relative;
+}
+.testimonials:before {
+    content: "";
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: o;
+    left: 0;
+}
+
+/* FIN TESTIMONIALS */
+
+.best {
+    position: relative;
+}
+
+.test {
+    margin-bottom: 5rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    /* letter-spacing: 1.5rem; */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: white;
+    position: relative;
+}
+
+.container-slide{
+    margin: auto;
+    background-color: transparent;
+    width: 800px;
+    /* padding: 30px; */
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container-slide  ul {
+      display: flex;
+      padding: 0;
+      width: 300%;
+      list-style: none;
+      color: white;
+      animation: cambio 10s infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in;
+  }
+
+  .container-slide li {
+      width: 100%;
+      list-style: none;
+      font-size: 1.5rem;
+      line-height: 2;
+  }
+
+  .container-slide img {
+      margin-top: 2rem;
+  }
+
+
+  @keyframes cambio {
+      0% { margin-left: 0; }
+      25% { margin-left: 0; }
+
+      35% { margin-left: -100%; }
+      60% { margin-left: -100%; }
+
+      75% { margin-left: -200%; }
+      100% { margin-left: -200%; }
+  }
+
+  
+.photo {
+    width: 7rem;
+    height: 7rem;
+    /* background: rgba(255, 255, 255, 0.25); */
+    border-radius: 50%;
+}
+
+
+.name-test {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #75dab4;
+}
+
+.container-slide h2 {
+    font-size: 1.2rem;
+}

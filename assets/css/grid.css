@@ -1,0 +1,93 @@
+.row {
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-flexend {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-arround {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-right {
+    float: right;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.back-color-transparent {
+    background-color: transparent;
+}
+
+/* GRID */
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66667%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+
+.col-7 {
+    width: 85.33333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66667%;
+}
+
+.col-4 {
+    width: 33.33333;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66667%;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
