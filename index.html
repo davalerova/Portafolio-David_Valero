@@ -107,7 +107,7 @@
     <!-- Fin home -->
     <!-- Inicio de header -->
 
-    <div class="header">
+    <div class="header" id="header">
         <nav class="container row justify-between">
             <div class="logo d-flex">
                 <a href="#">
@@ -128,23 +128,23 @@
                 </li>
 
                 <li class="col-2 d-flex justify-flexend">
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
 
                 <li class="col-2 d-flex justify-flexend">
-                    <a href="#">Services</a>
+                    <a href="#services">Services</a>
                 </li>
 
                 <li class="col-2 d-flex justify-flexend">
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
 
                 <li class="col-2 d-flex justify-flexend">
-                    <a href="#">Blog</a>
+                    <a href="#blog">Blog</a>
                 </li>
 
                 <li class="col-2 d-flex justify-flexend">
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -153,7 +153,7 @@
     <!-- Fin de header -->
     <!-- Inicio About me -->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about container row">
             <div class="description col-6">
                 <h3 class="about-title">
@@ -202,7 +202,7 @@
     <!-- Fin About me -->
     <!-- Inicio Services -->
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="d-flex flex-wrap justify-center">
                 <h6 class="best col-12 text-center">Best features</h6>
@@ -287,7 +287,7 @@
 
     <!-- Inicio Portafolio -->
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="d-flex flex-wrap justify-center">
                 <h6 class="best col-12">Portfolio</h6>
@@ -337,7 +337,7 @@
     <!-- Fin portafolio -->
 
     <!-- Inicio Testimonials -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <div class="container d-flex direction-column">
             <h6 class="best col-12 text-center">What people says</h6>
             <h3 class="test col-12 text-center">Testimonials.</h3>
@@ -372,83 +372,43 @@
     <!-- Fin Testimonials -->
 
 
-    <section class="services">
+    <section class="services" id="blog">
         <div class="container">
             <div class="d-flex flex-wrap justify-center">
-                <h6 class="best col-12 text-center">Best features</h6>
+                <h6 class="best col-12 text-center">Latest news</h6>
 
-                <h3 class="serv col-12 text-center">Services.</h3>
+                <h3 class="serv col-12 text-center">My blogs.</h3>
 
-                <span class="serv-transp">Services</span>
+                <span class="serv-transp">Blogs</span>
             </div>
 
-            <div class="card-services d-flex align-center justify-between">
-                <div class="card-service col-4 align-center justify-between text-center">
-                    <img
-                        class="icon back-color-transparent"
-                        src="./assets/img/gran-ancla.svg"
-                        alt=""
-                    >
-
-                    <h2 class="title-service">UI / UX Design</h2>
-
-                    <h3 class="description-service">
-                        Tempore corrupti tmporibus fuga aerum asperiores fugit laudantium
-                    </h3>
+            <div class="container-blog">
+                <div class="card-blog col-4">
+                
+                    <img src="./assets/img/men.jpg" alt="" class="img-blog">
+                
+                <div class="card-blog-body">
+                    <h2 class="card-blog-title">Primary card title</h2>
                 </div>
-
-                <div class="card-service col-4 align-center justify-between text-center">
-                    <img
-                        class="icon back-color-transparent"
-                        src="./assets/img/smartphone.svg"
-                        alt=""
-                    >
-
-                    <h2 class="title-service">Web & App Development</h2>
-
-                    <h3 class="description-service">
-                        Tempore corrupti tmporibus fuga aerum asperiores fugit laudantium
-                    </h3>
-                </div>
-
-                <div class="card-service col-4 align-center justify-between text-center">
-                    <img
-                        class="icon back-color-transparent"
-                        src="./assets/img/camera.svg"
-                        alt=""
-                    >
-
-                    <h2 class="title-service">Photography</h2>
-
-                    <h3 class="description-service">
-                        Tempore corrupti tmporibus fuga aerum asperiores fugit laudantium
-                    </h3>
-                </div>
+                <p class="card-blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.</p>
             </div>
-        </div>
-        <div class="footer-cards"></div>
-        <div class="numbers-container">
-            <div class="numbers container d-flex justify-between align-center text-center">
-                <div class="card-number col-3">
-                    <h2 class="count">2400</h2>
-                    <img class="icon back-color-transparent" src="./assets/img/happiness.svg" alt="">
-                    <h5>Happy Clients</h5>
+            <div class="card-blog col-4">
+                
+                <img src="./assets/img/cat.jpg" alt="" class="img-blog">
+
+                <div class="card-blog-body">
+                    <h2 class="card-blog-title">Secondary card title</h2>
                 </div>
-                <div class="card-number col-3">
-                    <h2 class="count">133</h2>
-                    <img class="icon back-color-transparent" src="./assets/img/portfolio.svg" alt="">
-                    <h5>Compleate Projects</h5>
+                <p class="card-blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.</p>
+            </div>
+            <div class="card-blog col-4">
+                
+                    <img src="./assets/img/pc.jpg" alt="" class="img-blog">
+                <div class="card-blog-body">
+                    <h2 class="card-blog-title">Danger card title</h2>
                 </div>
-                <div class="card-number col-3">
-                    <h2 class="count">254 K</h2>
-                    <img class="icon back-color-transparent" src="./assets/img/cloud-computing.svg" alt="">
-                    <h5>Files Downloaded</h5>
-                </div>
-                <div class="card-number col-3">
-                    <h2 class="count">46</h2>
-                    <img class="icon back-color-transparent" src="./assets/img/medal.svg" alt="">
-                    <h5>Award Win</h5>
-                </div>
+                <p class="card-blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.</p>
+            </div>
             </div>
         </div>
     </section>

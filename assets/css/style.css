@@ -412,3 +412,58 @@ h2{
 .container-slide h2 {
     font-size: 1.2rem;
 }
+
+
+
+.container-blog {
+    /* margin: 25px 200px; */
+    display: flex;
+    box-sizing:unset;
+    justify-content: space-between; 
+}
+
+.card-blog {
+    width: 100%;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.card-blog-title {
+    margin: 20px;
+}
+
+.card-blog-text {
+    margin: 20px;
+    text-align: justify;
+}
+
+.primary-blog-card {
+    border-color: #39A2DB;
+    color: #39A2DB;
+}
+
+.secondary-blog-card {
+    border-color: #946C00;
+    color: #946C00;
+}
+
+.danger-blog-card {
+    border-color: #F03A5F;
+    color: #F03A5F;
+}
+
+.card-blog-header {
+    max-width: 33%;
+    border-bottom: 2px solid lightgrey;
+    color: black;
+    background-color: #f8f8f8;
+}
+
+.img-blog {
+    width: 100%;
+    background-image: url("../../assets/img/men.jpg");
+    background-repeat: no-repeat;
+    display:block;
+    height: auto;
+}
