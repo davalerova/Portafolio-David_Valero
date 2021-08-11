@@ -416,7 +416,7 @@ h2{
 
 
 .container-blog {
-    /* margin: 25px 200px; */
+    margin: 75px 0;
     display: flex;
     box-sizing:unset;
     justify-content: space-between; 
@@ -462,7 +462,6 @@ h2{
 
 .img-blog {
     width: 100%;
-    background-image: url("../../assets/img/men.jpg");
     background-repeat: no-repeat;
     display:block;
     height: auto;
