@@ -131,6 +131,9 @@
 .about {
     padding: 120px 0;
 }
+.about-container {
+    display: flex;
+}
 
 .about-title {
     margin-bottom: 1rem;
@@ -202,6 +205,18 @@
     height: 10px;
     background-color: #75dab4;
 }
+
+@media (max-width: 576px) {
+    .about-container {
+      flex-direction: column;
+    }
+    .description {
+        width: 100% !important;
+    }
+    .skills {
+        width: 100% !important;
+    }
+  }
 
 /* FIN ABOUT */
 
@@ -281,6 +296,36 @@
     font-weight: 300;
     letter-spacing: 1px;
 }
+
+@media (max-width: 576px) {
+    .card-services {
+        flex-direction: column;
+    }
+    .card-service {
+      width: 100% !important;
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card-services {
+        flex-direction: column;
+    }
+    .card-service {
+      width: 100% !important;
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .card-services {
+        flex-direction: column;
+    }
+    .card-service {
+      width: 100% !important;
+      padding: 1rem;
+    }
+  }
 /* FIN SERVICES */
 
 /* INICIO PORTFOLIO */
@@ -367,7 +412,7 @@ h2{
 .container-slide{
     margin: auto;
     background-color: transparent;
-    width: 800px;
+    width: 90%;
     /* padding: 30px; */
     overflow: hidden;
     position: relative;
@@ -484,6 +529,12 @@ h2{
     height: auto;
 }
 
+@media (max-width: 576px) {
+    .container-blog {
+        flex-direction: column;
+    }
+  }
+
 /* FIN BLOG */
 
 /* CONTACT */
@@ -551,6 +602,10 @@ h2{
 
 /* FOOTER */
 
+.footer-container {
+    display: flex;
+}
+
 .left-footer-container {
     width: 100%;
     /* height: 500px; */
@@ -571,5 +626,42 @@ h2{
 .right-footer-container h3 {
     color: white;
 }
+
+.right-footer-container h4 {
+    color: white;
+}
+
+.right-footer-container .email {
+    padding: 15px;
+    width: 80%;
+    background-color: #0F1219;
+    display: inline-block;
+}
+
+.right-footer-container .email input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+.right-footer-container button{
+    padding: 15px 30px;
+    background-color: #11141B;
+    border: none;
+    color: #75dab4;
+}
+@media (max-width: 576px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .left-footer-container {
+        width: 100% !important;
+    }
+    .right-footer-container {
+        width: 100% !important;
+    }
+  }
 
 /* FIN FOOTER */
