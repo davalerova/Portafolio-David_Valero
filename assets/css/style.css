@@ -513,6 +513,18 @@ h2{
     .testimonials .best {
         letter-spacing: 5.5px;
     }
+    .container-slide div {
+        font-size: 1.5rem;
+    }
+    .container-slide li {
+        line-height: normal;
+    }
+    .photo {
+        width: 5rem;
+        height: 5rem;
+        /* background: rgba(255, 255, 255, 0.25); */
+        border-radius: 50%;
+    }
   }
 
 /* BLOG */
@@ -526,7 +538,7 @@ h2{
 
 .card-blog {
     width: 100%;
-    margin: 10px;
+    margin: 10px 2px;
     border: 2px solid;
     border-radius: 5px;
 }
@@ -573,11 +585,22 @@ h2{
     .container-blog {
         flex-direction: column;
     }
+    .card-blog {
+        width: 100%;
+        margin: 10px 0px;
+        border: 2px solid;
+        /* border-radius: 5px; */
+    }
   }
 
 /* FIN BLOG */
 
 /* CONTACT */
+
+.container-contact {
+    width: 80%;
+    margin: auto;
+}
 
 .input-container {
     padding: 20px 0;
@@ -594,6 +617,7 @@ h2{
     outline: none;
     
 }
+
 
 .contact-button {
     width: 100px;
@@ -637,6 +661,12 @@ h2{
     top: 0;
 }
 
+@media (max-width: 576px) {
+    .container-contact {
+        width: 95%;
+        flex-direction: column;
+    }
+  }
 
 /* FIN CONTACT */
 
@@ -701,6 +731,13 @@ h2{
     }
     .right-footer-container {
         width: 100% !important;
+    }
+    .right-footer-container .email {
+        padding: 15px;
+        width: 60%;
+    }
+    .photo {
+        margin-bottom: 1rem;
     }
   }
 
