@@ -25,6 +25,13 @@ a {
     margin: auto;
 }
 
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: auto;
+}
+}
+
 h4 {
   text-decoration: none;
   font-family: 'Poppins', sans-serif; 

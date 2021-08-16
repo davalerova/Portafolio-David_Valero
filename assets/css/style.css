@@ -124,6 +124,19 @@
     border-radius: 25%;
 }
 
+@media (max-width: 576px) {
+    .cont h1 {
+        margin-bottom: 2%;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    .cont h4 {
+        margin-bottom: 2%;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+  }
+
 /* FIN SECCIÓN PRINCIPAL */
 
 /* INICIO ABOUT */
@@ -305,6 +318,23 @@
       width: 100% !important;
       padding: 1rem;
     }
+    .serv-transp{
+        display: none;
+    }
+    .numbers-container .numbers{
+        flex-direction: column !important;
+    }
+    .numbers-container .numbers .card-number{
+        margin-bottom: 1.5rem;
+        background-color:rgba(0, 0, 0, 0.07);
+        border-radius: 15px;
+    }
+    .best {
+        font-size: 1rem;
+    }
+    .serv {
+        font-size: 3rem;
+    }
   }
 
   @media (max-width: 768px) {
@@ -474,6 +504,16 @@ h2{
 .container-slide h2 {
     font-size: 1.2rem;
 }
+
+@media (max-width: 576px) {
+    .test {
+        /* margin-bottom: 1rem; */
+        font-size: 3rem;
+    }
+    .testimonials .best {
+        letter-spacing: 5.5px;
+    }
+  }
 
 /* BLOG */
 
