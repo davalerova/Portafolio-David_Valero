@@ -23,7 +23,6 @@ const height_testimonials = testimonials.getBoundingClientRect().top;
 const height_blog = blog.getBoundingClientRect().top;
 const height_contact = contact.getBoundingClientRect().top;
 
-console.log(height_about, height_services, height_portfolio, height_testimonials, height_blog, height_contact);
 
 function clear_active(){
     item_home.classList.remove("item-active");
@@ -79,7 +78,7 @@ function scrollHeaderTop(){
     item_blog.classList.remove("item-active");
     item_contact.classList.remove("item-active");
     item_home.classList.add("item-active");
-    
+
     if(window.scrollY >= height_about){
         item_home.classList.remove("item-active");
         item_services.classList.remove("item-active");
