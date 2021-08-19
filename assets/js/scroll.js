@@ -46,41 +46,40 @@ function home_active(){
 function about_active(){
     clear_active();
     about.classList.add("item-active");
-    console.log("Clic about");
 }
 function services_active(){
     clear_active();
     services.classList.add("item-active");
-    console.log("Clic services");
 }
 function portfolio_active(){
     clear_active();
     portfolio.classList.add("item-active");
-    console.log("Clic portfolio");
 }
 function testimonials_active(){
     clear_active();
     testimonials.classList.add("item-active");
-    console.log("Clic testimonials");
 }
 function blog_active(){
     clear_active();
     blog.classList.add("item-active");
-    console.log("Clic blog");
 }
 function contact_active(){
     clear_active();
     contact.classList.add("item-active");
-    console.log("Clic contact");
 }
 
 
 
 
 function scrollHeaderTop(){
-    // console.log(window.scrollY, height_about, height_services);
-    item_home.classList.add("item-active");
     item_about.classList.remove("item-active");
+    item_services.classList.remove("item-active");
+    item_portfolio.classList.remove("item-active");
+    item_testimonials.classList.remove("item-active");
+    item_blog.classList.remove("item-active");
+    item_contact.classList.remove("item-active");
+    item_home.classList.add("item-active");
+    
     if(window.scrollY >= height_about){
         item_home.classList.remove("item-active");
         item_services.classList.remove("item-active");
