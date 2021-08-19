@@ -34,7 +34,7 @@
 
 .header ul li a {
     color: black;
-    text-align:end;
+    /* text-align:center; */
 }
 
 .header ul li a.item-active {

@@ -13,7 +13,7 @@
         content="width=device-width, initial-scale=1.0"
     ></meta>
 
-    <title>Document</title>
+    <title>Portfolio</title>
 
     <link
         rel="stylesheet"
@@ -34,7 +34,7 @@
 <body>
     <!-- Inicio Home -->
 
-    <div class="">
+    <div class="" id="home">
         <div class="main-section">
             <div class="cont container">
                 <h6>HELLO, I'M</h6>
@@ -123,32 +123,36 @@
             <div class="icono-menu">
                 <img src="assets/img/open-menu.png" alt="" id="icono-menu">
             </div>
-            <ul class="d-flex justify-between align-center col-6 cont-menu" id="menu">
+            <ul class="d-flex justify-between align-center col-8 cont-menu" id="menu">
                 <li class="col-2 d-flex justify-flexend">
                     <a
                         href="#"
-                        class="item-active"
+                        class="item-active" id="item-home"
                     >Home</a>
                 </li>
 
-                <li class="col-2 d-flex justify-flexend">
-                    <a href="#about">About</a>
+                <li class="col-2 d-flex justify-center">
+                    <a href="#about"  id="item-about">About</a>
                 </li>
 
-                <li class="col-2 d-flex justify-flexend">
-                    <a href="#services">Services</a>
+                <li class="col-2 d-flex justify-center">
+                    <a href="#services" id="item-services">Services</a>
                 </li>
 
-                <li class="col-2 d-flex justify-flexend">
-                    <a href="#portfolio">Portfolio</a>
+                <li class="col-2 d-flex justify-center">
+                    <a href="#portfolio" id="item-portfolio">Portfolio</a>
                 </li>
 
-                <li class="col-2 d-flex justify-flexend">
-                    <a href="#blog">Blog</a>
+                <li class="col-2 d-flex justify-center">
+                    <a href="#testimonials" id="item-testimonials">Testimonials</a>
                 </li>
 
-                <li class="col-2 d-flex justify-flexend">
-                    <a href="#contact">Contact</a>
+                <li class="col-2 d-flex justify-center">
+                    <a href="#blog" id="item-blog">Blog</a>
+                </li>
+
+                <li class="col-2 d-flex justify-center">
+                    <a href="#contact" id="item-contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -569,6 +573,55 @@
                     </p>
                 </div>
             </div>
+            <div class="container-blog">
+                <div class="card-blog col-4">
+                    <img
+                        src="./assets/img/men.jpg"
+                        alt=""
+                        class="img-blog"
+                    >
+
+                    <div class="card-blog-body">
+                        <h2 class="card-blog-title">Primary card title</h2>
+                    </div>
+
+                    <p class="card-blog-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.
+                    </p>
+                </div>
+
+                <div class="card-blog col-4">
+                    <img
+                        src="./assets/img/cat.jpg"
+                        alt=""
+                        class="img-blog"
+                    >
+
+                    <div class="card-blog-body">
+                        <h2 class="card-blog-title">Secondary card title</h2>
+                    </div>
+
+                    <p class="card-blog-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.
+                    </p>
+                </div>
+
+                <div class="card-blog col-4">
+                    <img
+                        src="./assets/img/pc.jpg"
+                        alt=""
+                        class="img-blog"
+                    >
+
+                    <div class="card-blog-body">
+                        <h2 class="card-blog-title">Danger card title</h2>
+                    </div>
+
+                    <p class="card-blog-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo qui exercitationem neque dolorem, esse unde quos sed iusto, quo animi a ipsam minima aliquam pariatur alias quibusdam voluptate modi tenetur.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -712,7 +765,7 @@
 
     <!-- FIN FOOTER -->
 
-    <!-- <script src="./assets/js/scroll.js"></script> -->
+    <script src="./assets/js/scroll.js"></script>
     <script src="./assets/js/menu.js"></script>
 </body>
 </html>
