@@ -34,12 +34,12 @@
 
 .header ul li a {
     color: black;
-    /* text-align:center; */
+    /* text-align: right; */
 }
 
 .header ul li a.item-active {
     color: #75dab4;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -76,8 +76,13 @@
     z-index: 10;
 }
 
+.header ul li {
+    width: 100%;
+}
+
 /* Estilos para el contenedor del menu */
 .cont-menu{
+    width: 100%;
     box-sizing: border-box;
     flex-direction: column;
     background-color: rgb(42, 42, 42);
@@ -93,6 +98,7 @@
     color: white !important;
     box-sizing: border-box;
     transform: scale(0);
+    text-align: center;
 }
 
 /* Estilos para agregar en JavaScript */
@@ -115,7 +121,7 @@
 
 .header ul li{
     display: block;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     text-decoration: none;
     padding: 10px 0;
     cursor: pointer;
@@ -309,6 +315,9 @@
     .skills {
         width: 100% !important;
     }
+    .about-subtitle {
+        font-size: 2rem;
+    }
   }
 
 /* FIN ABOUT */
@@ -441,6 +450,7 @@
 /* INICIO PORTFOLIO */
 
 .card-container {
+    width: 45%;
     margin: 25px 5px; 
     height: auto;
     max-width:min-content;
@@ -458,11 +468,22 @@
     padding: 25px;
 }
 
-.button {
+.button-git {
     background-color: #75dab4;
-    padding: 10px;
+    /* padding: 10px; */
     color: white;
+    border: none;
     border-radius: 5px;
+    align-self: center;
+}
+
+.icon-git {
+    padding: 2px 5px;
+    /* margin-left: 5px; */
+    width: 55px;
+    height: 55px;
+    /* background: rgba(255, 255, 255, 0.25); */
+    border-radius: 25%;
 }
 
 p{
@@ -473,6 +494,19 @@ p{
 h2{
     margin-bottom: 20px;
 }
+
+@media (max-width: 970px) {
+    .card-container {
+        width: 100%;
+        margin: 25px 5px; 
+        height: auto;
+        max-width:min-content;
+        border: solid 1px #75dab4;
+        overflow:hidden;
+        border-radius: 5px;
+        background-color: #efefef;
+    }
+  }
 
 /* FIN PORTFOLIO */
 
@@ -771,6 +805,10 @@ h2{
 
 .left-footer-container h3 {
     color: white;
+}
+
+.left-footer-container h3 span{
+    font-weight: 100;
 }
 
 .right-footer-container h3 {
