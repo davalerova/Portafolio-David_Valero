@@ -257,7 +257,7 @@
 
 .about-description {
     margin-bottom: 2%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     font-weight: 200;
@@ -272,7 +272,7 @@
 }
 
 .ui {
-    margin: 2rem 0;
+    margin: 1.0rem 0;
 }
 
 .ui h2 {
