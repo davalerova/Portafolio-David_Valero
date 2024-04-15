@@ -450,7 +450,7 @@
 /* INICIO PORTFOLIO */
 
 .card-container {
-    width: 45%;
+    width: 100%;
     margin: 25px 5px; 
     height: auto;
     max-width:min-content;
@@ -497,10 +497,17 @@
 
 .technology-icon {
     width: auto; /* Tamaño reducido de los iconos */
-    height: 55px; /* Altura automática para mantener la proporción */
+    height: 40px; /* Altura automática para mantener la proporción */
     display: inline-block; /* Asegura que el ícono se maneje como bloque inline */
 }
 
+@media (max-width: 576px) {
+  .technology-icon {
+      width: auto; /* Tamaño reducido de los iconos */
+      height: 20px; /* Altura automática para mantener la proporción */
+      display: inline-block; /* Asegura que el ícono se maneje como bloque inline */
+  }
+}
 
 p{
     margin-bottom: 20px;
